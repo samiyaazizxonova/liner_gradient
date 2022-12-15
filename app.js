@@ -43,3 +43,5 @@ function setGradient() {
 
 setGradient();
 container.addEventListener("click", setGradient);
+
+setInterval(setGradient, 1000);
